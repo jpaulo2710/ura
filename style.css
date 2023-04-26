@@ -1,0 +1,100 @@
+body {
+    background-color: #dadada;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding-top: 50px;
+  }
+  
+  #phone {
+    width: 300px;
+    height: 600px;
+    background-color: #222;
+    margin: 0 auto;
+    border-radius: 20px;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  #screen {
+    width: 100%;
+    height: 70%;
+    background-color: #000;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+  }
+  
+  #keyboard {
+    width: 100%;
+    height: 30%; 
+    background-color: #2b2a2a;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .key {
+    width: 15%;
+    height: 20%;
+    margin: 10px;
+    border: none;
+    border-radius: 20%;
+    background-color: #1f1e1e;
+    font-size: 12px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  .key:hover {
+    background-color: #999;
+  }
+  .call {
+    width: 15%;
+    height: 20%;
+    margin: 1px;
+    border: none;
+    border-radius: 30%;
+    background-color: rgb(19, 235, 102);
+    background-image: url("https://publicdomainvectors.org/photos/phone-call-icon.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 70%;
+    font-size: 24px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+  .call:hover {
+    background-color: rgb(91, 241, 171);
+  }
+  #clear {
+    width: 15%;
+    height: 20%;
+    margin: 1px;
+    border: none;
+    border-radius: 30%;
+    background-color: rgb(235, 67, 67);
+    font-size: 24px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+  #clear:hover {
+    background-color: rgb(243, 125, 125);
+  }
+ 
